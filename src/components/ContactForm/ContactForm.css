@@ -1,0 +1,11 @@
+.submit__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit__btn {
+  width: 100px;
+  outline: none;
+  background-color: var(--light-btn-color);
+  margin-top: 40px;
+}

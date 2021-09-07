@@ -1,0 +1,29 @@
+.contacts__list {
+  margin-top: 20px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: var(--lighter-blue-contact);
+  padding: 10px;
+  font-size: 18px;
+}
+
+.contacts__btn {
+  width: 100px;
+  outline: none;
+  background-color: var(--light-btn-color);
+}
+
+.contacts__name {
+  width: 300px;
+  font-weight: 600;
+}
+
+.contacts__number {
+  font-size: 21px;
+}
