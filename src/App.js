@@ -70,10 +70,7 @@ class App extends Component {
         <div className="wrapper">
           <section className="phonebook">
             <h1 className="phonebook__title">Phonebook</h1>
-            <ContactForm
-              onSubmit={this.formSubmitHandler}
-              onInput={this.testDublicateName}
-            />
+            <ContactForm onSubmit={this.formSubmitHandler} />
           </section>
           <section className="contacts">
             <h2 className="contacts__title">Contacts</h2>
